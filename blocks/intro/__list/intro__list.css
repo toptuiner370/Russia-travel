@@ -1,0 +1,28 @@
+.intro__list{
+    max-width: 690px;
+    max-height: 90px;
+    margin: 33px 0 0 0;
+    padding:0;
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .intro__list{
+        max-width: 690px;
+        max-height: 90px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .intro__list{
+        max-width: 720px;
+        max-height: 90px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .intro__list{
+        max-width: 288px;
+        max-height: 90px;
+    }
+}

@@ -1,0 +1,38 @@
+.intro__subtitle{
+    max-width: 690px;
+    max-height: 208px;
+    margin: 40px 0 0 0;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffff;
+}
+
+@media only screen and (max-width: 1024px) {
+    .intro__subtitle{
+        max-width: 690px;
+        max-height: 208px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .intro__subtitle{
+        max-width: 720px;
+        max-height: 208px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .intro__subtitle{
+        max-width: 288px;
+        max-height: 520px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+}

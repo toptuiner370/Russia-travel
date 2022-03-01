@@ -1,0 +1,30 @@
+.lead__image{
+    object-fit: cover;
+    width: 100%;
+    max-width: 984px;
+    margin: 64px 148px 0 148px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .lead__image{
+        max-width: 928px;
+        max-height: 580px;
+        margin: 56px 48px 0 48px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .lead__image{
+        max-width: 768px;
+        max-height: 480px;
+        margin: 56px 0 0 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .lead__image{
+        max-width: 320px;
+        max-height: 200px;
+        margin: 40px 0 0 0;
+    }
+}
